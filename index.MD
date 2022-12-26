@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<!-- <h1> Open-Source Pretrained Language Models </h1>
+# Open-Source Pretrained Language Models
 
-Only open-source models with published checkpoints are included. -->
+Only open-source models with published checkpoints are included.
 
 <table>
 <tr>
