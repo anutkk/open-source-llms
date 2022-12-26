@@ -18,25 +18,6 @@ Only open-source models with published checkpoints are included.
     </tr>
     {% endif %}
 
-    <tr>
-      {% for pair in row %}
-        <td>{{ pair[1] }}</th>
-      {% endfor %}
-    </tr>
-  {% endfor %}
-</table>
-
-----
-<table>
-  {% for row in site.data.llms %}
-    {% if forloop.first %}
-    <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
-    </tr>
-    {% endif %}
-
     {% tablerow pair in row %}
       {{ pair[1] }}
     {% endtablerow %}
