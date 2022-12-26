@@ -1,13 +1,13 @@
 ---
-layout: home
-classes: wide
+layout: default
+datatable: true
 ---
 
 # Open-Source Pretrained Language Models
 
 Only open-source models with published checkpoints are included.
 
-<table>
+<table class="display">
 <tr>
   <th>Model Name</th>
   <th>Size in B-parameters</th>
