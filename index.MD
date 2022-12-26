@@ -1,5 +1,6 @@
 ---
 layout: default
+classes: wide
 ---
 
 # Open-Source Pretrained Language Models
