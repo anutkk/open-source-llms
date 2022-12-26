@@ -140,7 +140,7 @@ Only open-source models with published checkpoints are included. -->
   <td><a href="https://huggingface.co/bigscience/bloomz-mt">Model</a></td>
   <td><a href="https://bigscience.huggingface.co/">BigScience</a></td>
   <td>Decoder-only</td>
-  <td>English</td>
+  <td>Multilingual</td>
   <td><a href="https://huggingface.co/spaces/bigscience/license">❔</a></td>
   <td>Does "Crosslingual Generalization" means it also understands Klingon?</td>
 </tr>
@@ -153,7 +153,7 @@ Only open-source models with published checkpoints are included. -->
   <td><a href="https://huggingface.co/bigscience/mt0-xxl-mt">Model</a></td>
   <td><a href="https://bigscience.huggingface.co/">BigScience</a></td>
   <td>Encoder-Decoder</td>
-  <td>English</td>
+  <td>Multilingual</td>
   <td><a href="https://huggingface.co/spaces/bigscience/license">❔</a></td>
   <td>I can't undertand how BigScience isn't better-known.</td>
 </tr>
