@@ -1,5 +1,5 @@
 ﻿Model Name,Size in B-parameters,Release (YY/MM),Link to paper,Link to model,Author,Architecture,English-only/Multilingual,Commercial use (Don't trust me ask a lawyer!),Random comment
-T0pp,11,21-Oct,<a href="https://arxiv.org/abs/2110.08207">Paper</a>,<a href="https://huggingface.co/bigscience/T0pp">Model</a>,BigScience,Encoder-Decoder,English,✅,First open-source real competitor to GPT-3. Change my mind!
+T0pp,11,21-Oct,<a href='https://arxiv.org/abs/2110.08207'>Paper</a>,<a href='https://huggingface.co/bigscience/T0pp'>Model</a>,BigScience,Encoder-Decoder,English,✅,First open-source real competitor to GPT-3. Change my mind!
 T0_3B,3,21-Oct,Paper,Model,BigScience,Encoder-Decoder,English,✅,Like T0pp but smaller and not better
 T0,11,21-Oct,Paper,Model,BigScience,Encoder-Decoder,English,✅,Like T0pp but not smaller and not better
 OPT-IML-30B,30,22-Dec,Paper,Model,Meta,Decoder-only,English (?),❌,December 2022 is a crazy month
