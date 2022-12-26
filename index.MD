@@ -1,11 +1,30 @@
 ---
 layout: default
 datatable: true
+title: Open-source SOTA language models
 ---
 
 # Open-Source Pretrained Language Models
 
 Only open-source models with published checkpoints are included.
+
+
+<table>
+  {% for row in site.data.llms %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
+
 
 <table class="display">
 <tr>
