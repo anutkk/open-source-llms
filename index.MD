@@ -20,7 +20,7 @@ Only open-source models with published checkpoints are included.
 
     <tr>
       {% for pair in row %}
-        <th>{{ pair[1] }}</th>
+        <td>{{ pair[1] }}</th>
       {% endfor %}
     </tr>
   {% endfor %}
