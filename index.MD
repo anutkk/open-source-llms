@@ -33,7 +33,7 @@ Only open-source models with published checkpoints are included. -->
 </tr>
 <tr>
   <td>T0_3B</td>
-  <td>11e9</td>
+  <td>3e9</td>
   <td>21/10</td>
   <td><a href="https://arxiv.org/abs/2110.08207">Paper</a></td>
   <td><a href="https://huggingface.co/bigscience/T0_3B">Model</a></td>
@@ -105,4 +105,18 @@ Only open-source models with published checkpoints are included. -->
   <td>❔</td>
   <td>They have an <a href="https://huggingface.co/spaces/togethercomputer/GPT-JT"> online demo</a></td>
 </tr>
+
+<tr>
+  <td>GPT-J 6B</td>
+  <td>6e9</td>
+  <td>22/11</td>
+  <td><a href="https://arankomatsuzaki.wordpress.com/2021/06/04/gpt-j/">Blog</a>, <a href="https://github.com/kingoflolz/mesh-transformer-jax">GitHub</a></td>
+  <td><a href="https://huggingface.co/EleutherAI/gpt-j-6B">Model</a></td>
+  <td><a href="https://www.together.xyz/">Together</a></td>
+  <td>Decoder-only</td>
+  <td>English</td>
+  <td>❔</td>
+  <td>They have an <a href="https://huggingface.co/spaces/togethercomputer/GPT-JT"> online demo</a></td>
+</tr>
+
 </table>
