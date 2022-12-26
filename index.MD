@@ -8,7 +8,25 @@ title: Open-source SOTA language models
 
 Only open-source models with published checkpoints are included.
 
+<table>
+  {% for row in site.data.llms %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
 
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[1] }}</th>
+      {% endfor %}
+    </tr>
+  {% endfor %}
+</table>
+
+----
 <table>
   {% for row in site.data.llms %}
     {% if forloop.first %}
@@ -24,6 +42,8 @@ Only open-source models with published checkpoints are included.
     {% endtablerow %}
   {% endfor %}
 </table>
+
+----
 
 
 <table class="display">
