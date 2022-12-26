@@ -6,7 +6,7 @@ title: Open-source SOTA language models
 
 # Open-Source Pretrained Language Models
 
-Only open-source models with published checkpoints are included.
+Only open-source models with publicly available checkpoints are included.
 
 <table>
   {% for row in site.data.llms %}
@@ -24,8 +24,7 @@ Only open-source models with published checkpoints are included.
   {% endfor %}
 </table>
 
-----
-
+<!-- 
 
 <table class="display">
 <tr>
@@ -179,4 +178,4 @@ Only open-source models with published checkpoints are included.
   <td>I can't undertand how BigScience isn't better-known.</td>
 </tr>
 
-</table>
+</table> -->
