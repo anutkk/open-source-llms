@@ -1,6 +1,5 @@
 ---
-layout: default
-datatable: true
+layout: none
 title: Open-source SOTA language models
 ---
 
