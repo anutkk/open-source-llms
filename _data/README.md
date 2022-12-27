@@ -11,4 +11,3 @@ TODO:
  - Add [Chinchilla](https://arxiv.org/abs/2203.15556)
  - Add Gopher
  - UL2? Not really ready-to-use
- - FLAN-T5 scores are few-shot, OPT-IML scores are 0-shot - inconsistent
